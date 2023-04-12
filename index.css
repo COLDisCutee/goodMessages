@@ -1,0 +1,20 @@
+body {
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:black;
+    
+    flex-direction:column;
+  }
+  .goodMessage, .by {
+    color:white;
+    font-family: 'Noto Serif KR', serif;
+    opacity:0%;
+    transition: opacity 1s;
+  }
+  .by{
+    margin-top:-5px;
+    transition: opacity 2s 0.2s;
+  }
